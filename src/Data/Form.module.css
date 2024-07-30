@@ -1,0 +1,108 @@
+.form {
+  margin: 20px auto;
+  max-width: 40%;
+  padding: 15px;
+  margin-top: 150px;
+}
+
+.form h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: rgb(223, 22, 22);
+}
+
+.form form label {
+  display: block;
+  width: 100%;
+  font-weight: bolder;
+  margin: 5px;
+}
+
+.form form input {
+  display: block;
+  width: 100%;
+  padding: 3px;
+  border: solid 2px rgb(199, 72, 114);
+  margin: 5px;
+  border-radius: 3px;
+}
+
+.form form button {
+  padding: 5px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(175, 41, 85);
+}
+
+.form form button:hover {
+  background-color: rgb(207, 101, 119);
+  color: rgb(122, 8, 75);
+}
+
+.list {
+  margin: 20px auto;
+  max-width: 50%;
+  padding: 15px;
+}
+
+.list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.list li {
+  border: 2px solid orangered;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  margin: 5px;
+}
+.seperate {
+  display: flex;
+  flex-direction: column;
+}
+
+.data {
+  color: brown;
+  font-size: medium;
+  font-weight: bolder;
+  margin: 3px;
+}
+
+.list li button {
+  padding: 5px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(175, 41, 85);
+}
+
+.list li button:hover {
+  background-color: rgb(207, 101, 119);
+  color: rgb(122, 8, 75);
+}
+
+.btned {
+  display: flex;
+  flex-direction: column;
+}
+
+.btned button {
+  padding: 5px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(36, 3, 14);
+}
+
+.list li button:hover {
+  background-color: rgb(207, 101, 119);
+  color: rgb(122, 8, 75);
+}
